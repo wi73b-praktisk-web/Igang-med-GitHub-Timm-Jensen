@@ -5,6 +5,8 @@
 ### Overskrift h3
 #### Overskrift h4
 ##### Overskrift h5
+###### Overskrift h6
+
 Almindelig Tekst
 
 Link til [Google](http://google.dk/)
