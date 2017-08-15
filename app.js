@@ -94,7 +94,12 @@ console.log(cars);
 
 // Arrays 2
 // Arrays inden i et array ( multi-dimensionelle arrays)
-// Øvelse 1
+// Øvelse 1, 2 & 3
 var personer = [
-    [fornavn]
+    [holdA = "Timm", "Tue"], 
+    [holdB = "Christian", "Tenna"], 
+    [holdC = "Kasper", "Jake"]
 ]
+
+console.log(personer);
+console.log(personer.length);
