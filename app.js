@@ -76,4 +76,25 @@ console.log(cars);
 
 // Øvelse 1.2
 
-console.log(cars 1);
+console.log(cars[1]);
+
+// Øvelse 1.3
+
+cars[0] = "Opel";
+console.log(cars);
+
+// Øvelse 1.4
+
+console.log(cars.length);
+
+// Øvelse 1.5
+
+cars[cars.length] = "Mercedes";
+console.log(cars);
+
+// Arrays 2
+// Arrays inden i et array ( multi-dimensionelle arrays)
+// Øvelse 1
+var personer = [
+    [fornavn]
+]
