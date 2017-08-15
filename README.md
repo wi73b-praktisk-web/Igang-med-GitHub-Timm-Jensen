@@ -2,7 +2,7 @@
 
 # Overskrift h1
 ## Overskrift h2
-### Overskrift 3
+### Overskrift h3
 #### Overskrift h4
 ##### Overskrift h5
 Almindelig Tekst
