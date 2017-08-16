@@ -61,3 +61,20 @@ Vælg om du vil tilføje en 'gitignore' og en 'license'. Valget af disse 2 ting,
 ````
 
 Når alt er udfyldt, kan du trykke "Opret repository" og så er du færdig :-)
+
+
+# if-else statement
+
+Et 'if-else' statement kan man f.eks. bruge ved et input felt. dvs, hvis en bruger skal indtaste sin alder, da man skal være et hvis antal år gammel, for at kunne oprette sig.  i dette tilfælde kan vi lave et tjek sådan:
+
+````javascript
+Hvis brugerens alder er 16 år eller ældre, så modtager de beskeden "Du er gammel nok", hvis brugerens alder, derimod er under 16, så modtager de beskeden "Du skal være mindst 16 år gammel, for at kunne oprette dig her".
+
+var alder = 15;
+
+if(alder > 16){
+    console.log("Du er gammel nok");
+} else {
+    console.log("Du skal være mindst 16 år gammel, for at kunne oprette dig her");
+}
+````
