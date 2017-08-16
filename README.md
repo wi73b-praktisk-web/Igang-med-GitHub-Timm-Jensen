@@ -64,7 +64,7 @@ Når alt er udfyldt, kan du trykke "Opret repository" og så er du færdig :-)
 
 
 # if-else statement
-
+## Øvelse 6 (True-false-opgaven)
 Et 'if-else' statement kan man f.eks. bruge ved et input felt. dvs, hvis en bruger skal indtaste sin alder, da man skal være et hvis antal år gammel, for at kunne oprette sig.  i dette tilfælde kan vi lave et tjek sådan:
 
 ````javascript
@@ -77,4 +77,27 @@ if(alder > 16){
 } else {
     console.log("Du skal være mindst 16 år gammel, for at kunne oprette dig her");
 }
+````
+
+## Tegn og deres betydning
+
+Bool / Boolean = True/False
+String = "Sætninger"
+Int / Integer = Tal som 1, 2, 3 osv.
+
+== er en sammenlignings-operator
+
+=== fungere på samme måde som '==' men med 3 === tjekker den også for om den er samme datatype.
+
+!= betyder hvis IKKE lig med.
+
+````
+var navn = "test";
+
+if(navn == "test"){}
+
+var tal = 3;
+if(tal === 3){}
+
+if(tal != 3){}
 ````
