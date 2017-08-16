@@ -86,4 +86,3 @@ switch(nyDrik){
     console.log("Aaaaaad");
     break;
 }
-// Øvelse 6
