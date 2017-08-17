@@ -136,3 +136,18 @@ calc.add(5);
 calc.add(3);
 calc.sub(4);
 console.log(calc.result());
+
+// Øvelse Ekstra opgave
+
+var profiler = [
+    [profil1 = "Timm", "Jensen", 1995],
+    [profil2 = "Hans", "Hansen", 2000],
+    [profil3 = "Jørgen", "Petersen", 1888],
+    [profil4 = "Gandi", "Inder", 1700]
+];
+
+function profiles(value) {
+    console.log(value);
+}
+
+profiles();
