@@ -3,7 +3,7 @@ hello(); //
 function hello() {
     console.log("Helloooooooo");
 }
-
+ 
 
 function sayHello(who) { // Who er et argument
     console.log('hello', who);
