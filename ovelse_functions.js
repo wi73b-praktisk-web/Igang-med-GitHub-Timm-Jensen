@@ -101,7 +101,8 @@ console.log(afkortstreng(langTekt));
 // Argumenter kan være af typen array
 
 var dato = new Date();
-var birthday = new Date("21/04/95");
+var birthday = new Date('95/04/21'); // Date() functionen skrive i Americans format virker med YY/MM/DD && MM/DD/YY
+
 var idol = ["Timm", "Jensen", 1995];
 var profil = function (p) {
     return p[0] + " " + p[1] + "\n : Født " + p[2]; // Returnerer tekst-strengen "Timm Jensen: Født 1995"
