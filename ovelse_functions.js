@@ -31,13 +31,3 @@ udskriv('Hans', 'hansen', 2000);
 
 
 // Øvelse B
-
-printTal();
-function printTal() {
-    console.log( 7 + 7);
-    console.log( 7 - 7);
-    console.log( 7 * 7);
-    console.log( 7 / 7);
-    console.log( 7 % 7);
-
-}
