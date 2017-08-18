@@ -104,6 +104,11 @@ Int / Integer = Tal som 1, 2, 3 osv.
 
 ? er en 'Ternary Operator' det er en "3-delt" operator, som bruges f.eks. ved: Betingelsen : Sand / Falsk
 
+&&  Betyder egentlig bare 'Og'. Det er JavaScripts svar på og-tegn
+|| er en 'Eller' Operator. Bruges hvis en betingelse, skal endten det ene eller det andet.
+
+! 
+
 ````
 var navn = "test";
 

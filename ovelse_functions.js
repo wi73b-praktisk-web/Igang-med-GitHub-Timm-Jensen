@@ -139,6 +139,7 @@ console.log(calc.result());
 
 // Øvelse Ekstra opgave
 
+var text = "";
 var profiler = [
     ["Timm", "Jensen", 1995],
     ["Hans", "Hansen", 2000],
@@ -146,11 +147,11 @@ var profiler = [
     ["Gandi", "Inder", 1700]
 ];
 
-function profiles(value) {
-    console.log(value);
-}
+profiler.forEach(function(element) {
+    element.forEach(function(item){
+        text += item + "\n";
+    });
+});
 
-profiles(profil1);
-
+console.log(text);
 // Function in function
-
