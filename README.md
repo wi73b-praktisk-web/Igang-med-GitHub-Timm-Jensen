@@ -85,11 +85,24 @@ Bool / Boolean = True/False
 String = "Sætninger"
 Int / Integer = Tal som 1, 2, 3 osv.
 
-== er en sammenlignings-operator
+=  
+
+== er en sammenlignings-operator (Er lig med)
 
 === fungere på samme måde som '==' men med 3 === tjekker den også for om den er samme datatype.
 
 != betyder hvis IKKE lig med.
+
+!== Betyder 'er ikke lig med' og 'ikke samme datatype
+> betyder Større end...
+
+< betyder Mindre end...
+
+>= betyder større end eller er lig med...
+
+<= betyder mindre end eller er lig med...
+
+? er en 'Ternary Operator' det er en "3-delt" operator, som bruges f.eks. ved: Betingelsen : Sand / Falsk
 
 ````
 var navn = "test";
