@@ -21,10 +21,19 @@
         console.log(json);
         var udskriv = document.getElementById('udskriv');
         console.log(json.results[0]);
+        console.log(json.results);
         udskriv.innerHTML = '<h1>' + json.results[0].name + '</h1>';
         udskriv.innerHTML += '<h2>' + json.results[0].birth_year + '</h2>';
         udskriv.innerHTML += '<h3>' + json.results[0].gender + '</h3>';
         udskriv.innerHTML += '<h4>' + json.results[0].hair_color + '</h4>';
+        udskriv.innerHTML += '<hr>';
+        var people = json.results;
+        people.forEach(function(element) {
+            udskriv.innerHTML += `<p>${element.name}, ${element.height}</p>`;
+            element.films.forEach(function(movies) {
+                udskriv.innerHTML += `<a href="${movies}">Se film</a> <br>`;
+            });
+        });
     });
     </script>
 </body>
