@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars Actors</title>
+</head>
+<body>
+    <main>
+        <div id="udskriv">
+            <h1>Henter data...</h1>
+        </div>
+    </main>
+    <script>
+    fetch('https://swapi.co/api/people/')
+    .then((response) => {
+        return response.json();
+    })
+    .then((json) => {
+        console.log(json);
+        var udskriv = document.getElementById('udskriv');
+        console.log(json.results[0]);
+        udskriv.innerHTML = '<h1>' + json.results[0].name + '</h1>';
+        udskriv.innerHTML += '<h2>' + json.results[0].birth_year + '</h2>';
+        udskriv.innerHTML += '<h3>' + json.results[0].gender + '</h3>';
+    })
+
+    //<h1>Mickey Mouse</h1>
+
+
+
+
+
+    </script>
+</body>
+</html>
