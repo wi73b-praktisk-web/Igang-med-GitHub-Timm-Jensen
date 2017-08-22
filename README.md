@@ -85,7 +85,7 @@ Bool / Boolean = True/False
 String = "Sætninger"
 Int / Integer = Tal som 1, 2, 3 osv.
 
-=  
+=  Erstatter det indhold som skulle være i en variablel
 
 == er en sammenlignings-operator (Er lig med)
 
