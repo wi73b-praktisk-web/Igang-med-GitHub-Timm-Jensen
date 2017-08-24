@@ -107,7 +107,7 @@ Int / Integer = Tal som 1, 2, 3 osv.
 &&  Betyder egentlig bare 'Og'. Det er JavaScripts svar på og-tegn
 || er en 'Eller' Operator. Bruges hvis en betingelse, skal endten det ene eller det andet.
 
-! 
+! Er en "IKKE" operator.
 
 ````javascript
 var navn = "test";
@@ -125,3 +125,36 @@ if(tal != 3){
     Run Code
 }
 ````
+
+# For, While & Do-While
+
+En For-løkke, er en løkke som kører et hvis antal gange, hvis der er sat en ende på.
+
+Eksempel:
+```javascript
+for (statement 1; statement 2; statement 3) {
+    Code der bliver kørt
+}
+```
+
+En While-løkke, er en løkke som kører, så længe at argumentet er lig med sandt. Hvis at argumentet bliver falsk, stopper løkken med at kører.
+
+Eksempel:
+```javascript
+while (true) {
+    Code er bliver kørt
+}
+```
+
+En Do-While-løkke, den præcis som en almindelig 'while-løkke', det eneste der er til forskel, er at den kører en kode, før while-løkken igangsættes.
+
+Eksempel:
+```javascript
+do {
+    Kode som bliver kørt
+}
+while(argument);
+```
+
+
+NPM = Node package Manager (terminal: npm init) npm kan installeres globalt og lokalt.
