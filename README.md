@@ -109,13 +109,19 @@ Int / Integer = Tal som 1, 2, 3 osv.
 
 ! 
 
-````
+````javascript
 var navn = "test";
 
-if(navn == "test"){}
+if(navn == "test"){
+    Run code
+}
 
 var tal = 3;
-if(tal === 3){}
+if(tal === 3){
+    Run Code
+}
 
-if(tal != 3){}
+if(tal != 3){
+    Run Code
+}
 ````
