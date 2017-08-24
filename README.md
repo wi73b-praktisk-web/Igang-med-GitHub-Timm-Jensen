@@ -126,7 +126,7 @@ if(tal != 3){
 }
 ````
 
-# For, While & Do-While
+# For, While, Do-While & ForEach
 
 En For-løkke, er en løkke som kører et hvis antal gange, hvis der er sat en ende på.
 
@@ -156,6 +156,19 @@ do {
 while(argument);
 ```
 
+En ForEach løkke, fungere på samme måde som en while og en for løkke. En forEach, kører så mange gange, som der er af værdier i et array.
+
+forEach ligger arrayet data, ned i kassen "element".
+
+eksempel:
+```javascript
+var array = [1,2,3];
+array.forEach(function(element) {
+    console.log(element);
+});
+```
+
+# Node Package Manager
 
 NPM = Node package Manager (terminal: npm init) npm kan installeres globalt og lokalt.
 
