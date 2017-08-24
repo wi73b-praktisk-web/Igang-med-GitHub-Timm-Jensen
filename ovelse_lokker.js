@@ -30,3 +30,27 @@ var i = new Date(1/1/2017);
 for (;i >= 1917;i--) {
     console.log(i);
 };
+
+// Løkker del 2
+
+// Øvelse 1
+var mitArray = ["Hans", "Bo", "Blackman", "Mamboking", "Jørgen", "Egon", "Ida", "Sarah"];
+mitArray.forEach(function(element) {
+    console.log(element);
+});
+
+// Øvelse 2
+var arrayy = ["Snib","snab","snude","kat"];
+arrayy.forEach(function(element, index) {
+    console.log(index + " " + element);
+});
+
+// Øvelse 3
+var talArray = [199,3,22,41,53,36,27,82,900,20];
+talArray.forEach(function(element, index) {
+    if (element + 1 >= talArray.length && element >= talArray[index + 1]){
+        console.log("Tallet er større eller lig med");
+    } else {
+        console.log("Tallet er mindre eller lig med");
+    }
+});
