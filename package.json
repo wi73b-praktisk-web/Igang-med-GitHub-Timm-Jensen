@@ -4,7 +4,7 @@
   "description": "Server test",
   "main": "ovelse_callback.js",
   "scripts": {
-    "start": "node ovelse_server.js"
+    "start": "nodemon ovelse_server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wi73b-praktisk-web/Igang-med-GitHub-Timm-Jensen/issues"
   },
-  "homepage": "https://github.com/wi73b-praktisk-web/Igang-med-GitHub-Timm-Jensen#readme"
+  "homepage": "https://github.com/wi73b-praktisk-web/Igang-med-GitHub-Timm-Jensen#readme",
+  "dependencies": {
+    "nodemon": "^1.11.0"
+  }
 }

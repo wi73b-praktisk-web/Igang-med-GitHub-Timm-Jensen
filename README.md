@@ -158,3 +158,7 @@ while(argument);
 
 
 NPM = Node package Manager (terminal: npm init) npm kan installeres globalt og lokalt.
+
+Globalt = Gælder alle fremtidige projekter. (eksempel: npm install nodemon --global eller -G) Global installeres i ens system.
+
+Lokalt = Gælder KUN det pågældende projekt. (eksempel: npm install nodemon --save eller -S) lokalt bliver kun installeret i den pågældende projektmappe.
