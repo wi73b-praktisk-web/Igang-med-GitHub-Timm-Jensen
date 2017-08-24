@@ -1,0 +1,19 @@
+{
+  "name": "server-73b",
+  "version": "1.0.0",
+  "description": "Server test",
+  "main": "ovelse_callback.js",
+  "scripts": {
+    "start": "node ovelse_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wi73b-praktisk-web/Igang-med-GitHub-Timm-Jensen.git"
+  },
+  "author": "Miiiiiiiig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wi73b-praktisk-web/Igang-med-GitHub-Timm-Jensen/issues"
+  },
+  "homepage": "https://github.com/wi73b-praktisk-web/Igang-med-GitHub-Timm-Jensen#readme"
+}
