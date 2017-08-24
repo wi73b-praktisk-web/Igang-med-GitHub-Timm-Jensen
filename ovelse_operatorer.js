@@ -31,9 +31,13 @@ console.log(tel);
 tal %= 122;
 console.log(tal);
 
-// Øvelse 3
-var tal = 2;
+// Øvelse 3 & 4
 
-if (3 -= 1) {
-    console.log(tal);
+var alder = 22;
+var fodselsaar = 1995;
+
+if (alder >= 18 || fodselsaar >= 1999){
+    console.log("Congrats, you're old enough!");
+} else {
+    console.log("Sorry, but you're not old enough bud!");
 }
