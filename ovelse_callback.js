@@ -14,9 +14,9 @@ function vejr(grader){
     console.log(grader);
 };
 
-data.forEach(function(grader){
-    console.log(grader);
-});
+// data.forEach(function(grader){
+//     console.log(grader);
+// });
 
 // 
 data.forEach(vejr);
